@@ -1,0 +1,45 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+
+		<button id = "innerHTML_demo" onclick = "texto1 ()"> Aperte Aqui.</button>  <br>
+		<button id = "innerHTML_demo" onclick = "texto2 ()"> Aperte Aqui.</button>  
+		<p id="innerHTMLdemo">gostaria de me apagar????</p>
+		<button onclick="texto3()">Apagar</button><br>
+	
+		<p id="lua">Boa noite!!!!</p>
+		<button type="button" onclick="texto4()">Aumentar!</button>
+
+
+
+	
+
+<script>
+function texto1 () {
+    document.getElementById ("innerHTML_demo"). innerHTML = "Bom dia!";
+}
+
+function texto2(){
+	alert("HELLO!!");
+}
+function texto3() {
+    document.getElementById("innerHTMLdemo").innerHTML = "";
+}
+
+function texto4(){
+	document.getElementById('lua').style.fontSize='35px';
+
+}
+
+</script>
+
+
+
+	</body>
+	</html>
